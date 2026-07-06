@@ -31,7 +31,7 @@ Program yang saya buat melakukan render simulasi jatuh bebas dari 1.200 partikel
 * **Heads-Up Display (HUD)** : Menampilkan judul simulasi serta perhitungan FPS (Frames Per Second) secara dinamis yang memiliki 3 warna dan dapat berubah otomatis sesuai kondisinya, yaitu Hijau jika >= 30 FPS, Oranye jika 15-29 FPS, dan Merah jika < 15 FPS, hal ini berguna untuk memantau performa simulasi secara _real-time_.
 
  ## 4. Flowchart Program
-![Flowchart Program](flowchart.png)
+![Flowchart Program](docs/flowchart.png)
 
 ## 5. Penjelasan Implementasi Paralel (OpenMPI)
 Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama pada window system, arsitektur paralel program ini menggunakan pola **Master-Worker** dengan pemprosesan pada bagian utama simulasi :
@@ -44,7 +44,7 @@ Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama 
 ## 6. Hasil Pengujian Program
 Program diuji dengan menggunakan** 4 Core Prosesor Paralel** ```(-np 4)``` pada Ubuntu. Hasil Pengujian menunjukkan simulasi berjalan sangat stabil tanpa error, mampu merender 1.200 partikel secara mulus pada kecepatan optimal **~63 FPS (Real-Time)** dengan indikator FPS berwarna **Hijau**.
 
-![Hasil Uji Program](hasil.jpeg)
+![Hasil Uji Program](docs/hasil.jpeg)
 
 [Video Hasil Uji](https://github.com/user-attachments/assets/0c3bfe98-8376-4cd7-a31c-269f3154348c)
 
