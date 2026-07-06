@@ -45,7 +45,7 @@ Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama 
 Program diuji dengan menggunakan** 4 Core Prosesor Paralel** ```(-np 4)``` pada Ubuntu. Hasil Pengujian menunjukkan simulasi berjalan sangat stabil tanpa error, mampu merender 1.200 partikel secara mulus pada kecepatan optimal **~63 FPS (Real-Time)** dengan indikator FPS berwarna **Hijau**.
 
 ![Hasil Uji Program](hasil.jpeg)
-<video src="video%20hasil.mp4" width="100%" controls></video>
+<video src="video_hasil.mp4" width="100%" controls></video>
 
 
 ## 7. Dokumentasi Penggunaan Program
