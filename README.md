@@ -43,4 +43,17 @@ Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama 
 
 ## 6. Hasil Pengujian Program
 Program diuji dengan menggunakan** 4 Core Prosesor Paralel** ```(-np 4)``` pada Ubuntu. Hasil Pengujian menunjukkan simulasi berjalan sangat stabil tanpa error, mampu merender 1.200 partikel secara mulus pada kecepatan optimal **~63 FPS (Real-Time)** dengan indikator FPS berwarna **Hijau**.
+
 ![Hasil Uji Program](hasil.jpeg)
+
+## 7. Dokumentasi Penggunaan Program
+Untuk menjalankan program yang telah dikompilasi sebelumnya, digunakan perintah ```mpirun``` dengan menentukan jumlah core prosesor yang diinginkan, pada pengujian ini saya menggunakan 4 Core, 
+```bash
+mpirun -np 4 ./bin/rain_simulation
+```
+### Kontrol Interaktif Keyboard
+Saat window simulasi aktif, user dapat berinteraksi menggunakan tombol keyboard dengan langsung, berikut penjelasannya :
+* **Tombol Panah Kanan** : Menambahkan hembusan angin ke kanan (tetesan hujan akan miring ke kanan)
+* **Tombol Panah Kiri** : Menambahkan hembusan angin ke kiri (tetesan hujan akan miring ke kiri)
+* **Tombol Panah Bawah** : Mereset kecepatan angin kembali normal (jatuh tegak lurus ke bawah)
+* **Tombol ESC / Close Window** : Menghentikan loop simulasi dan menutup program dengan aman
