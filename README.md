@@ -31,7 +31,7 @@ Program yang saya buat melakukan render simulasi jatuh bebas dari 1.200 partikel
 * **Heads-Up Display (HUD)** : Menampilkan judul simulasi serta perhitungan FPS (Frames Per Second) secara dinamis yang memiliki 3 warna dan dapat berubah otomatis sesuai kondisinya, yaitu Hijau jika >= 30 FPS, Oranye jika 15-29 FPS, dan Merah jika < 15 FPS, hal ini berguna untuk memantau performa simulasi secara _real-time_.
 
  ## 4. Flowchart Program
-![Flowchart Program](flowchart.png)
+![Flowchart Program](docs/flowchart.png)
 
 ## 5. Penjelasan Implementasi Paralel (OpenMPI)
 Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama pada window system, arsitektur paralel program ini menggunakan pola **Master-Worker** dengan pemprosesan pada bagian utama simulasi :
@@ -44,7 +44,7 @@ Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama 
 ## 6. Hasil Pengujian Program
 Program diuji dengan menggunakan **4 Core Prosesor Paralel** ```(-np 4)``` pada Ubuntu. Hasil Pengujian menunjukkan simulasi berjalan sangat stabil tanpa error, mampu merender 1.200 partikel secara mulus pada kecepatan optimal **~63 FPS (Real-Time)** dengan indikator FPS berwarna **Hijau**.
 
-![Hasil Uji Program](hasil.jpeg)
+![Hasil Uji Program](docs/hasil.jpeg)
 
 [Video Hasil Uji](https://github.com/user-attachments/assets/6718f859-842a-45c3-8ba5-239b5c619d79)
 
@@ -57,9 +57,9 @@ mpirun -np 4 ./bin/rain_simulation
 ### Kontrol Interaktif Keyboard
 Saat window simulasi aktif, user dapat berinteraksi menggunakan tombol keyboard dengan langsung, berikut penjelasannya :
 * **Tombol Panah Kanan** : Menambahkan hembusan angin ke kanan (tetesan hujan akan miring ke kanan)
-![Panah Kanan](kanan.jpeg)
+![Panah Kanan](docs/kanan.jpeg)
 * **Tombol Panah Kiri** : Menambahkan hembusan angin ke kiri (tetesan hujan akan miring ke kiri)
-![Panah Kiri](kiri.jpeg)
+![Panah Kiri](docs/kiri.jpeg)
 * **Tombol Panah Bawah** : Mereset kecepatan angin kembali normal (jatuh tegak lurus ke bawah)
-![Panah Lurus](lurus.jpeg)
+![Panah Lurus](docs/lurus.jpeg)
 * **Tombol ESC / Close Window** : Menghentikan loop simulasi dan menutup program dengan aman
