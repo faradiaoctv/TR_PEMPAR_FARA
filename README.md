@@ -42,7 +42,7 @@ Antarmuka grafis SDL2 hanya dapat diakses dengan aman melalui satu proses utama 
 * **Rendering Visual** : Setelah data tersinkronisasi di Rank 0, proses Master menggambar visualisasi garis hujan dan teks HUD ke layar.
 
 ## 6. Hasil Pengujian Program
-Program diuji dengan menggunakan** 4 Core Prosesor Paralel** ```(-np 4)``` pada Ubuntu. Hasil Pengujian menunjukkan simulasi berjalan sangat stabil tanpa error, mampu merender 1.200 partikel secara mulus pada kecepatan optimal **~63 FPS (Real-Time)** dengan indikator FPS berwarna **Hijau**.
+Program diuji dengan menggunakan **4 Core Prosesor Paralel** ```(-np 4)``` pada Ubuntu. Hasil Pengujian menunjukkan simulasi berjalan sangat stabil tanpa error, mampu merender 1.200 partikel secara mulus pada kecepatan optimal **~63 FPS (Real-Time)** dengan indikator FPS berwarna **Hijau**.
 
 ![Hasil Uji Program](hasil.jpeg)
 
