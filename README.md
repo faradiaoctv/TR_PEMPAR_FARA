@@ -57,6 +57,7 @@ mpirun -np 4 ./bin/rain_simulation
 ### Kontrol Interaktif Keyboard
 Saat window simulasi aktif, user dapat berinteraksi menggunakan tombol keyboard dengan langsung, berikut penjelasannya :
 * **Tombol Panah Kanan** : Menambahkan hembusan angin ke kanan (tetesan hujan akan miring ke kanan)
+  ![Panah Kanan](kanan.jpeg)
 * **Tombol Panah Kiri** : Menambahkan hembusan angin ke kiri (tetesan hujan akan miring ke kiri)
 * **Tombol Panah Bawah** : Mereset kecepatan angin kembali normal (jatuh tegak lurus ke bawah)
 * **Tombol ESC / Close Window** : Menghentikan loop simulasi dan menutup program dengan aman
