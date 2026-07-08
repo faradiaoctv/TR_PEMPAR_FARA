@@ -46,7 +46,7 @@ Program diuji dengan menggunakan **4 Core Prosesor Paralel** ```(-np 4)``` pada 
 
 ![Hasil Uji Program](hasil.jpeg)
 
-[Video Hasil Uji](https://github.com/user-attachments/assets/0c3bfe98-8376-4cd7-a31c-269f3154348c)
+[Video Hasil Uji](https://github.com/user-attachments/assets/6718f859-842a-45c3-8ba5-239b5c619d79)
 
 
 ## 7. Dokumentasi Penggunaan Program
