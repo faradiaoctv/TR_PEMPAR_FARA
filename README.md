@@ -59,5 +59,7 @@ Saat window simulasi aktif, user dapat berinteraksi menggunakan tombol keyboard 
 * **Tombol Panah Kanan** : Menambahkan hembusan angin ke kanan (tetesan hujan akan miring ke kanan)
   ![Panah Kanan](kanan.jpeg)
 * **Tombol Panah Kiri** : Menambahkan hembusan angin ke kiri (tetesan hujan akan miring ke kiri)
+   ![Panah Kiri](kiri.jpeg)
 * **Tombol Panah Bawah** : Mereset kecepatan angin kembali normal (jatuh tegak lurus ke bawah)
+   ![Panah Lurus](lurus.jpeg)
 * **Tombol ESC / Close Window** : Menghentikan loop simulasi dan menutup program dengan aman
