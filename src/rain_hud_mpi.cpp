@@ -1,6 +1,6 @@
 /*
  * SIMULASI HUJAN 2D DENGAN OPENMPI, SDL2, & HUD (FPS + JUDUL)
- * Tugas Rancang Praktikum Pemrosesan Paralel
+ * Faradila - Tugas Rancang Praktikum Pemrosesan Paralel
  */
 
 #include <mpi.h>
@@ -17,7 +17,7 @@
 // Konfigurasi Layar & Simulasi
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
-const int NUM_PARTICLES = 1200; // Memenuhi syarat minimal 500 partikel
+const int NUM_PARTICLES = 1200;
 
 // Struktur data partikel hujan
 struct Particle {
